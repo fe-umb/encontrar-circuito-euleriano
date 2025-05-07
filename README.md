@@ -1,23 +1,22 @@
-# encontrar-circuito-euleriano
-Aplicação que lê um arquivo texto e busca circuitos eulerianos no grafo informado.
-
-<h3> Tutorial de alteração do arquivo "grafo.txt": </h3>
-
-linha 1: indicação se o grafo é direcionado (1) ou não (0) <br>
-linha 2: número de vértices (n) <br>
-linha 3 até a linha (n + 1): nomes dos vértices <br>
-linha n+2 até o final do arquivo: arestas do grafo (uma por linha) com origem e destino, separados
-por vírgula.
-<br>
-<h3> Exemplo de input </h3>
-1 (grafo direcionado ou não) <br>
-3 (número de vértices) <br>
-A (nome do vértice 1) <br>
-B (nome do vértice 2) <br>
-C (nome do vértice 3) <br>
-A,B (aresta do grafo {origem, destino}) <br>
-A,C (aresta do grafo {origem, destino}) <br>
-C,B (aresta do grafo {origem, destino}) <br>
-B,A (aresta do grafo {origem, destino})
-
-made with ♥ by fe umb
+<h2 align="center"> find-eulerian-circuit </h2>
+<p align="center"> Application that reads a text file and searches for Eulerian circuits in the provided graph. </p>
+<h2 align="center"> tutorial for modifying the "grafo.txt" file:  ▶️ </h2>
+<div align="center">
+<p align="center"> Line 1: indicates whether the graph is directed (1) or not (0). </p>
+<p align="center"> Line 2: number of vertices (n) </p>
+<p align="center"> Lines 3 to (n + 1): names of the vertices </p>
+<p align="center"> Line (n + 2) to the end of the file: graph edges (one per line) with origin and destination, separated by a comma. </p>
+<h2 align="center"> input example 💻 </h2>
+<div align="center">
+1 (whether the graph is directed or not) <br>
+3 (number of vertices) <br>
+A (name of vertex 1) <br>
+B (name of vertex 2) <br>
+C (name of vertex 3) <br>
+A,B (graph edge {origin, destination}) <br>
+A,C (graph edge {origin, destination}) <br>
+C,B (graph edge {origin, destination}) <br>
+B,A (graph edge {origin, destination}) <br>
+</div> <br><br>
+<p> made with ♥ by fe umb </p>
+</div>
